@@ -10,6 +10,8 @@ public class Coach
 
     public string? Email { get; set; }
     
+    
+    //Relationship between person and coach
     public int PersonId { get; set; }
 
     public Person Person { get; set; } 

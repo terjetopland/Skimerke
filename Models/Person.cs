@@ -21,8 +21,11 @@ public class Person
         this.Email = email;
     }
     
+    //One Person can be many Coaches
     public List<Coach>? Coaches { get; set; }
 
+    //One Person can be Member many places
+    public List<Member>? Members { get; set; }
 
 
 }
