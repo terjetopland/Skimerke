@@ -11,11 +11,14 @@ public class Member
         this.Id = id;
     }
     
-    ////Relationship between Person and Member
+    //Relationship between Person and Member
     public int PersonId { get; set; }
-    
     public Person Person { get; set; }
     
-    
+    //Relationship between Member and SKiClub
+    public int SkiClubId { get; set; }
+
+
+
 }
 

@@ -27,6 +27,6 @@ public class Person
     //One Person can be Member many places
     public List<Member>? Members { get; set; }
 
-
+    
 }
 
